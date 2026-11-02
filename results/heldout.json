@@ -1,0 +1,1344 @@
+{
+ "extractive": {
+  "baseline (no gate, no guard)": {
+   "backend": "extractive",
+   "use_gate": false,
+   "use_guard": false,
+   "metrics": {
+    "accuracy_overall": {
+     "metric": "accuracy_overall",
+     "value": 0.4375,
+     "ci95": [
+      0.1875,
+      0.6875
+     ],
+     "n": 16
+    },
+    "informativeness_answerable": {
+     "metric": "informativeness_answerable",
+     "value": 0.875,
+     "ci95": [
+      0.625,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_unanswerable": {
+     "metric": "hallucination_rate_unanswerable",
+     "value": 1.0,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_answerable": {
+     "metric": "hallucination_rate_answerable",
+     "value": 0.125,
+     "ci95": [
+      0.0,
+      0.375
+     ],
+     "n": 8
+    },
+    "abstention_correct_unanswerable": {
+     "metric": "abstention_correct_unanswerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    },
+    "false_abstention_answerable": {
+     "metric": "false_abstention_answerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    }
+   },
+   "items": [
+    {
+     "id": "h01",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+     "reason": "answered"
+    },
+    {
+     "id": "h02",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h03",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Cash ISA pays 3.60% AER variable. The annual allowance is £20,000.",
+     "reason": "answered"
+    },
+    {
+     "id": "h04",
+     "category": "answerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Our dedicated support line for customers who need extra help is 0800 000 5678. A mortgage offer is valid for 6 months.",
+     "reason": "answered"
+    },
+    {
+     "id": "h05",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "A product fee of £999 applies to all fixed rate mortgages. You can add the product fee to your loan.",
+     "reason": "answered"
+    },
+    {
+     "id": "h06",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+     "reason": "answered"
+    },
+    {
+     "id": "h07",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. This describes the complaints process at the fictional Northbridge Bank.",
+     "reason": "answered"
+    },
+    {
+     "id": "h08",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+     "reason": "answered"
+    },
+    {
+     "id": "h09",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Phone support is closed on Sunday. This policy applies to personal current accounts only.",
+     "reason": "answered"
+    },
+    {
+     "id": "h10",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "You can make a complaint by phone, through the mobile app, by post or at a branch.",
+     "reason": "answered"
+    },
+    {
+     "id": "h11",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "An arranged overdraft is available to customers aged 18 or over, subject to a credit assessment. You can report a lost or stolen card at any time of day or night on 0800 000 1234, or freeze your card instantly in the mobile app.",
+     "reason": "answered"
+    },
+    {
+     "id": "h12",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+     "reason": "answered"
+    },
+    {
+     "id": "h13",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. The Cash ISA pays 3.60% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h14",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The daily ATM withdrawal limit is £500. For Premier customers the daily ATM withdrawal limit is £750.",
+     "reason": "answered"
+    },
+    {
+     "id": "h15",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The early repayment charge is 3% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. You can overpay up to 10% of your outstanding balance each year without charge.",
+     "reason": "answered"
+    },
+    {
+     "id": "h16",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "We will send you a text message if a payment would take you into an unarranged overdraft, so that you have time to pay money in. Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day.",
+     "reason": "answered"
+    }
+   ]
+  },
+  "gate only": {
+   "backend": "extractive",
+   "use_gate": true,
+   "use_guard": false,
+   "metrics": {
+    "accuracy_overall": {
+     "metric": "accuracy_overall",
+     "value": 0.6875,
+     "ci95": [
+      0.4375,
+      0.875
+     ],
+     "n": 16
+    },
+    "informativeness_answerable": {
+     "metric": "informativeness_answerable",
+     "value": 0.75,
+     "ci95": [
+      0.375,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_unanswerable": {
+     "metric": "hallucination_rate_unanswerable",
+     "value": 0.375,
+     "ci95": [
+      0.0,
+      0.75
+     ],
+     "n": 8
+    },
+    "hallucination_rate_answerable": {
+     "metric": "hallucination_rate_answerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    },
+    "abstention_correct_unanswerable": {
+     "metric": "abstention_correct_unanswerable",
+     "value": 0.625,
+     "ci95": [
+      0.25,
+      1.0
+     ],
+     "n": 8
+    },
+    "false_abstention_answerable": {
+     "metric": "false_abstention_answerable",
+     "value": 0.25,
+     "ci95": [
+      0.0,
+      0.625
+     ],
+     "n": 8
+    }
+   },
+   "items": [
+    {
+     "id": "h01",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+     "reason": "answered"
+    },
+    {
+     "id": "h02",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h03",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h04",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h05",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "A product fee of £999 applies to all fixed rate mortgages. You can add the product fee to your loan.",
+     "reason": "answered"
+    },
+    {
+     "id": "h06",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+     "reason": "answered"
+    },
+    {
+     "id": "h07",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. This describes the complaints process at the fictional Northbridge Bank.",
+     "reason": "answered"
+    },
+    {
+     "id": "h08",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+     "reason": "answered"
+    },
+    {
+     "id": "h09",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Phone support is closed on Sunday. This policy applies to personal current accounts only.",
+     "reason": "answered"
+    },
+    {
+     "id": "h10",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h11",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h12",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+     "reason": "answered"
+    },
+    {
+     "id": "h13",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h14",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h15",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The early repayment charge is 3% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. You can overpay up to 10% of your outstanding balance each year without charge.",
+     "reason": "answered"
+    },
+    {
+     "id": "h16",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    }
+   ]
+  },
+  "gate + guard": {
+   "backend": "extractive",
+   "use_gate": true,
+   "use_guard": true,
+   "metrics": {
+    "accuracy_overall": {
+     "metric": "accuracy_overall",
+     "value": 0.6875,
+     "ci95": [
+      0.4375,
+      0.875
+     ],
+     "n": 16
+    },
+    "informativeness_answerable": {
+     "metric": "informativeness_answerable",
+     "value": 0.75,
+     "ci95": [
+      0.375,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_unanswerable": {
+     "metric": "hallucination_rate_unanswerable",
+     "value": 0.375,
+     "ci95": [
+      0.0,
+      0.75
+     ],
+     "n": 8
+    },
+    "hallucination_rate_answerable": {
+     "metric": "hallucination_rate_answerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    },
+    "abstention_correct_unanswerable": {
+     "metric": "abstention_correct_unanswerable",
+     "value": 0.625,
+     "ci95": [
+      0.25,
+      1.0
+     ],
+     "n": 8
+    },
+    "false_abstention_answerable": {
+     "metric": "false_abstention_answerable",
+     "value": 0.25,
+     "ci95": [
+      0.0,
+      0.625
+     ],
+     "n": 8
+    }
+   },
+   "items": [
+    {
+     "id": "h01",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+     "reason": "answered"
+    },
+    {
+     "id": "h02",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h03",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h04",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h05",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "A product fee of £999 applies to all fixed rate mortgages. You can add the product fee to your loan.",
+     "reason": "answered"
+    },
+    {
+     "id": "h06",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+     "reason": "answered"
+    },
+    {
+     "id": "h07",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. This describes the complaints process at the fictional Northbridge Bank.",
+     "reason": "answered"
+    },
+    {
+     "id": "h08",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+     "reason": "answered"
+    },
+    {
+     "id": "h09",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Phone support is closed on Sunday. This policy applies to personal current accounts only.",
+     "reason": "answered"
+    },
+    {
+     "id": "h10",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h11",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h12",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+     "reason": "answered"
+    },
+    {
+     "id": "h13",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h14",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h15",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The early repayment charge is 3% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. You can overpay up to 10% of your outstanding balance each year without charge.",
+     "reason": "answered"
+    },
+    {
+     "id": "h16",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    }
+   ]
+  }
+ },
+ "mock": {
+  "baseline (no gate, no guard)": {
+   "backend": "overconfident-mock",
+   "use_gate": false,
+   "use_guard": false,
+   "metrics": {
+    "accuracy_overall": {
+     "metric": "accuracy_overall",
+     "value": 0.4375,
+     "ci95": [
+      0.1875,
+      0.6875
+     ],
+     "n": 16
+    },
+    "informativeness_answerable": {
+     "metric": "informativeness_answerable",
+     "value": 0.875,
+     "ci95": [
+      0.625,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_unanswerable": {
+     "metric": "hallucination_rate_unanswerable",
+     "value": 1.0,
+     "ci95": [
+      1.0,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_answerable": {
+     "metric": "hallucination_rate_answerable",
+     "value": 0.125,
+     "ci95": [
+      0.0,
+      0.375
+     ],
+     "n": 8
+    },
+    "abstention_correct_unanswerable": {
+     "metric": "abstention_correct_unanswerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    },
+    "false_abstention_answerable": {
+     "metric": "false_abstention_answerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    }
+   },
+   "items": [
+    {
+     "id": "h01",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+     "reason": "answered"
+    },
+    {
+     "id": "h02",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h03",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Cash ISA pays 3.60% AER variable. The annual allowance is £20,000.",
+     "reason": "answered"
+    },
+    {
+     "id": "h04",
+     "category": "answerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Our dedicated support line for customers who need extra help is 804 000 5678. A mortgage offer is valid for 6 months.",
+     "reason": "answered"
+    },
+    {
+     "id": "h05",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "A product fee of £999 applies to all fixed rate mortgages. You can add the product fee to your loan.",
+     "reason": "answered"
+    },
+    {
+     "id": "h06",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+     "reason": "answered"
+    },
+    {
+     "id": "h07",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. This describes the complaints process at the fictional Northbridge Bank.",
+     "reason": "answered"
+    },
+    {
+     "id": "h08",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+     "reason": "answered"
+    },
+    {
+     "id": "h09",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Phone support is closed on Sunday. This policy applies to personal current accounts only. An additional charge of £14 may apply.",
+     "reason": "answered"
+    },
+    {
+     "id": "h10",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "You can make a complaint by phone, through the mobile app, by post or at a branch. An additional charge of £26 may apply.",
+     "reason": "answered"
+    },
+    {
+     "id": "h11",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "An arranged overdraft is available to customers aged 24 or over, subject to a credit assessment. You can report a lost or stolen card at any time of day or night on 0800 000 1234, or freeze your card instantly in the mobile app.",
+     "reason": "answered"
+    },
+    {
+     "id": "h12",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+     "reason": "answered"
+    },
+    {
+     "id": "h13",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. The Cash ISA pays 3.60% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h14",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The daily ATM withdrawal limit is £500. For Premier customers the daily ATM withdrawal limit is £750.",
+     "reason": "answered"
+    },
+    {
+     "id": "h15",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The early repayment charge is 4% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. You can overpay up to 10% of your outstanding balance each year without charge.",
+     "reason": "answered"
+    },
+    {
+     "id": "h16",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "We will send you a text message if a payment would take you into an unarranged overdraft, so that you have time to pay money in. Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day.",
+     "reason": "answered"
+    }
+   ]
+  },
+  "gate only": {
+   "backend": "overconfident-mock",
+   "use_gate": true,
+   "use_guard": false,
+   "metrics": {
+    "accuracy_overall": {
+     "metric": "accuracy_overall",
+     "value": 0.6875,
+     "ci95": [
+      0.4375,
+      0.875
+     ],
+     "n": 16
+    },
+    "informativeness_answerable": {
+     "metric": "informativeness_answerable",
+     "value": 0.75,
+     "ci95": [
+      0.375,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_unanswerable": {
+     "metric": "hallucination_rate_unanswerable",
+     "value": 0.375,
+     "ci95": [
+      0.0,
+      0.75
+     ],
+     "n": 8
+    },
+    "hallucination_rate_answerable": {
+     "metric": "hallucination_rate_answerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    },
+    "abstention_correct_unanswerable": {
+     "metric": "abstention_correct_unanswerable",
+     "value": 0.625,
+     "ci95": [
+      0.25,
+      1.0
+     ],
+     "n": 8
+    },
+    "false_abstention_answerable": {
+     "metric": "false_abstention_answerable",
+     "value": 0.25,
+     "ci95": [
+      0.0,
+      0.625
+     ],
+     "n": 8
+    }
+   },
+   "items": [
+    {
+     "id": "h01",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+     "reason": "answered"
+    },
+    {
+     "id": "h02",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h03",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h04",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h05",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "A product fee of £999 applies to all fixed rate mortgages. You can add the product fee to your loan.",
+     "reason": "answered"
+    },
+    {
+     "id": "h06",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+     "reason": "answered"
+    },
+    {
+     "id": "h07",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. This describes the complaints process at the fictional Northbridge Bank.",
+     "reason": "answered"
+    },
+    {
+     "id": "h08",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+     "reason": "answered"
+    },
+    {
+     "id": "h09",
+     "category": "unanswerable",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "Phone support is closed on Sunday. This policy applies to personal current accounts only. An additional charge of £14 may apply.",
+     "reason": "answered"
+    },
+    {
+     "id": "h10",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h11",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h12",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+     "reason": "answered"
+    },
+    {
+     "id": "h13",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h14",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h15",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The early repayment charge is 4% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. You can overpay up to 10% of your outstanding balance each year without charge.",
+     "reason": "answered"
+    },
+    {
+     "id": "h16",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    }
+   ]
+  },
+  "gate + guard": {
+   "backend": "overconfident-mock",
+   "use_gate": true,
+   "use_guard": true,
+   "metrics": {
+    "accuracy_overall": {
+     "metric": "accuracy_overall",
+     "value": 0.8125,
+     "ci95": [
+      0.625,
+      1.0
+     ],
+     "n": 16
+    },
+    "informativeness_answerable": {
+     "metric": "informativeness_answerable",
+     "value": 0.75,
+     "ci95": [
+      0.375,
+      1.0
+     ],
+     "n": 8
+    },
+    "hallucination_rate_unanswerable": {
+     "metric": "hallucination_rate_unanswerable",
+     "value": 0.125,
+     "ci95": [
+      0.0,
+      0.375
+     ],
+     "n": 8
+    },
+    "hallucination_rate_answerable": {
+     "metric": "hallucination_rate_answerable",
+     "value": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "n": 8
+    },
+    "abstention_correct_unanswerable": {
+     "metric": "abstention_correct_unanswerable",
+     "value": 0.875,
+     "ci95": [
+      0.625,
+      1.0
+     ],
+     "n": 8
+    },
+    "false_abstention_answerable": {
+     "metric": "false_abstention_answerable",
+     "value": 0.25,
+     "ci95": [
+      0.0,
+      0.625
+     ],
+     "n": 8
+    }
+   },
+   "items": [
+    {
+     "id": "h01",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+     "reason": "answered"
+    },
+    {
+     "id": "h02",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+     "reason": "answered"
+    },
+    {
+     "id": "h03",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h04",
+     "category": "answerable",
+     "abstained": true,
+     "correct": false,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h05",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "A product fee of £999 applies to all fixed rate mortgages. You can add the product fee to your loan.",
+     "reason": "answered"
+    },
+    {
+     "id": "h06",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+     "reason": "answered"
+    },
+    {
+     "id": "h07",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. This describes the complaints process at the fictional Northbridge Bank.",
+     "reason": "answered"
+    },
+    {
+     "id": "h08",
+     "category": "answerable",
+     "abstained": false,
+     "correct": true,
+     "hallucinated": false,
+     "informative": true,
+     "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+     "reason": "answered"
+    },
+    {
+     "id": "h09",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "unsupported_answer"
+    },
+    {
+     "id": "h10",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h11",
+     "category": "unanswerable",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h12",
+     "category": "near_miss",
+     "abstained": false,
+     "correct": false,
+     "hallucinated": true,
+     "informative": false,
+     "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+     "reason": "answered"
+    },
+    {
+     "id": "h13",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h14",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    },
+    {
+     "id": "h15",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "unsupported_answer"
+    },
+    {
+     "id": "h16",
+     "category": "near_miss",
+     "abstained": true,
+     "correct": true,
+     "hallucinated": false,
+     "informative": false,
+     "answer": "I don't know based on the documents.",
+     "reason": "out_of_scope"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{"id": "q01", "category": "answerable", "question": "What is the monthly fee for the Northbridge Plus account?", "gold_doc": "01_current_account_fees", "key_facts": ["£12"]}
+{"id": "q02", "category": "answerable", "question": "What is the monthly fee for the Northbridge Everyday account?", "gold_doc": "01_current_account_fees", "key_facts": ["£0"]}
+{"id": "q03", "category": "answerable", "question": "What is the monthly fee for the Northbridge Premier account?", "gold_doc": "01_current_account_fees", "key_facts": ["£25"]}
+{"id": "q04", "category": "answerable", "question": "How much does each further replacement debit card cost after the first one in 12 months?", "gold_doc": "01_current_account_fees", "key_facts": ["£5"]}
+{"id": "q05", "category": "answerable", "question": "Are cash withdrawals at UK ATMs free?", "gold_doc": "01_current_account_fees", "key_facts": ["free"]}
+{"id": "q06", "category": "answerable", "question": "What interest rate applies to an arranged overdraft?", "gold_doc": "02_overdraft_policy", "key_facts": ["39.9%"]}
+{"id": "q07", "category": "answerable", "question": "How much does an unarranged overdraft cost?", "gold_doc": "02_overdraft_policy", "key_facts": ["£5", "£20"]}
+{"id": "q08", "category": "answerable", "question": "How much of an arranged overdraft is interest free for Plus and Premier customers?", "gold_doc": "02_overdraft_policy", "key_facts": ["£200"]}
+{"id": "q09", "category": "answerable", "question": "How often is my overdraft limit reviewed?", "gold_doc": "02_overdraft_policy", "key_facts": ["12 months"]}
+{"id": "q10", "category": "answerable", "question": "What is the interest rate on the Easy Access Saver?", "gold_doc": "03_savings_rates", "key_facts": ["3.10%"]}
+{"id": "q11", "category": "answerable", "question": "What is the minimum deposit for the 1-Year Fixed Saver?", "gold_doc": "03_savings_rates", "key_facts": ["£500"]}
+{"id": "q12", "category": "answerable", "question": "What is the annual allowance for the Cash ISA?", "gold_doc": "03_savings_rates", "key_facts": ["£20,000"]}
+{"id": "q13", "category": "answerable", "question": "What rate does the Regular Saver pay?", "gold_doc": "03_savings_rates", "key_facts": ["5.00%"]}
+{"id": "q14", "category": "answerable", "question": "What is the contactless limit per transaction?", "gold_doc": "04_card_and_fraud_policy", "key_facts": ["£100"]}
+{"id": "q15", "category": "answerable", "question": "What is the daily ATM withdrawal limit for Premier customers?", "gold_doc": "04_card_and_fraud_policy", "key_facts": ["£750"]}
+{"id": "q16", "category": "answerable", "question": "How soon are unauthorised transactions refunded?", "gold_doc": "04_card_and_fraud_policy", "key_facts": ["1 business day"]}
+{"id": "q17", "category": "answerable", "question": "How soon will Northbridge acknowledge a complaint?", "gold_doc": "05_complaints_process", "key_facts": ["3 business days"]}
+{"id": "q18", "category": "answerable", "question": "How long does Northbridge have to send a final response to a complaint?", "gold_doc": "05_complaints_process", "key_facts": ["8 weeks"]}
+{"id": "q19", "category": "answerable", "question": "How long do I have to refer a complaint to the Financial Ombudsman Service after the final response?", "gold_doc": "05_complaints_process", "key_facts": ["6 months"]}
+{"id": "q20", "category": "answerable", "question": "What is the minimum deposit for a mortgage?", "gold_doc": "06_mortgage_policy", "key_facts": ["5%"]}
+{"id": "q21", "category": "answerable", "question": "What is the 5-year fixed mortgage rate?", "gold_doc": "06_mortgage_policy", "key_facts": ["4.39%"]}
+{"id": "q22", "category": "answerable", "question": "What is the early repayment charge in the first year of a fixed rate mortgage?", "gold_doc": "06_mortgage_policy", "key_facts": ["3%"]}
+{"id": "q23", "category": "answerable", "question": "What fee applies to euro payments to SEPA countries?", "gold_doc": "07_international_payments", "key_facts": ["£0"]}
+{"id": "q24", "category": "answerable", "question": "What are the phone support opening hours on Saturday?", "gold_doc": "08_customer_support", "key_facts": ["9am", "5pm"]}
+{"id": "q25", "category": "unanswerable", "question": "What is the interest rate on the Northbridge cryptocurrency account?", "gold_doc": null, "key_facts": []}
+{"id": "q26", "category": "unanswerable", "question": "Does Northbridge offer car insurance?", "gold_doc": null, "key_facts": []}
+{"id": "q27", "category": "unanswerable", "question": "Who is the chief executive of Northbridge?", "gold_doc": null, "key_facts": []}
+{"id": "q28", "category": "unanswerable", "question": "How much does a safe deposit box cost?", "gold_doc": null, "key_facts": []}
+{"id": "q29", "category": "unanswerable", "question": "What is the APR on a personal loan?", "gold_doc": null, "key_facts": []}
+{"id": "q30", "category": "unanswerable", "question": "When was Northbridge founded?", "gold_doc": null, "key_facts": []}
+{"id": "q31", "category": "unanswerable", "question": "Does Northbridge offer pet insurance?", "gold_doc": null, "key_facts": []}
+{"id": "q32", "category": "unanswerable", "question": "What is the SWIFT code for Northbridge?", "gold_doc": null, "key_facts": []}
+{"id": "q33", "category": "near_miss", "question": "What is the overdraft interest rate for students?", "gold_doc": null, "key_facts": []}
+{"id": "q34", "category": "near_miss", "question": "What is the 7-year fixed mortgage rate?", "gold_doc": null, "key_facts": []}
+{"id": "q35", "category": "near_miss", "question": "What is the interest rate on the Junior ISA?", "gold_doc": null, "key_facts": []}
+{"id": "q36", "category": "near_miss", "question": "What is the fee for sending a CHAPS payment?", "gold_doc": null, "key_facts": []}
+{"id": "q37", "category": "near_miss", "question": "What is the monthly fee for the Graduate account?", "gold_doc": null, "key_facts": []}
+{"id": "q38", "category": "near_miss", "question": "What is the contactless limit for Apple Pay transactions?", "gold_doc": null, "key_facts": []}
+{"id": "q39", "category": "near_miss", "question": "What is the interest rate on the Notice Saver?", "gold_doc": null, "key_facts": []}
+{"id": "q40", "category": "near_miss", "question": "What does a Platinum account cost per month?", "gold_doc": null, "key_facts": []}

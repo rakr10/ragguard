@@ -1,0 +1,16 @@
+{"id":"h01","category":"answerable","question":"What is the monthly charge for a Premier current account?","gold_doc":"01_current_account_fees","key_facts":["£25"]}
+{"id":"h02","category":"answerable","question":"What AER does the Regular Saver pay?","gold_doc":"03_savings_rates","key_facts":["5.00%"]}
+{"id":"h03","category":"answerable","question":"What is the yearly allowance for the Cash ISA?","gold_doc":"03_savings_rates","key_facts":["£20,000"]}
+{"id":"h04","category":"answerable","question":"What is the smallest deposit I need for a mortgage?","gold_doc":"06_mortgage_policy","key_facts":["5%"]}
+{"id":"h05","category":"answerable","question":"What is the mortgage product fee?","gold_doc":"06_mortgage_policy","key_facts":["£999"]}
+{"id":"h06","category":"answerable","question":"Is phone support open on Saturday?","gold_doc":"08_customer_support","key_facts":["9am","5pm"]}
+{"id":"h07","category":"answerable","question":"How long do I have to take a complaint to the Financial Ombudsman Service?","gold_doc":"05_complaints_process","key_facts":["6 months"]}
+{"id":"h08","category":"answerable","question":"What is the fee for a euro payment to SEPA countries?","gold_doc":"07_international_payments","key_facts":["£0"]}
+{"id":"h09","category":"unanswerable","question":"How do I close my account?","gold_doc":null,"key_facts":[]}
+{"id":"h10","category":"unanswerable","question":"Does Northbridge have branches in Scotland?","gold_doc":null,"key_facts":[]}
+{"id":"h11","category":"unanswerable","question":"What is the credit card APR?","gold_doc":null,"key_facts":[]}
+{"id":"h12","category":"near_miss","question":"What is the monthly fee for a Business account?","gold_doc":null,"key_facts":[]}
+{"id":"h13","category":"near_miss","question":"What is the interest rate on the Lifetime ISA?","gold_doc":null,"key_facts":[]}
+{"id":"h14","category":"near_miss","question":"What is the ATM withdrawal limit for the Student account?","gold_doc":null,"key_facts":[]}
+{"id":"h15","category":"near_miss","question":"What is the early repayment charge on a 10-year fixed mortgage?","gold_doc":null,"key_facts":[]}
+{"id":"h16","category":"near_miss","question":"How long does a CHAPS payment take to arrive?","gold_doc":null,"key_facts":[]}

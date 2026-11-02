@@ -1,0 +1,1391 @@
+{
+  "baseline (no gate, no guard)": {
+    "backend": "extractive",
+    "use_gate": false,
+    "use_guard": false,
+    "metrics": {
+      "accuracy_overall": {
+        "metric": "accuracy_overall",
+        "value": 0.55,
+        "ci95": [
+          0.4,
+          0.7
+        ],
+        "n": 40
+      },
+      "informativeness_answerable": {
+        "metric": "informativeness_answerable",
+        "value": 0.9583333333333334,
+        "ci95": [
+          0.875,
+          1.0
+        ],
+        "n": 24
+      },
+      "hallucination_rate_unanswerable": {
+        "metric": "hallucination_rate_unanswerable",
+        "value": 0.8125,
+        "ci95": [
+          0.625,
+          1.0
+        ],
+        "n": 16
+      },
+      "hallucination_rate_answerable": {
+        "metric": "hallucination_rate_answerable",
+        "value": 0.16666666666666666,
+        "ci95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "n": 24
+      },
+      "abstention_correct_unanswerable": {
+        "metric": "abstention_correct_unanswerable",
+        "value": 0.1875,
+        "ci95": [
+          0.0,
+          0.375
+        ],
+        "n": 16
+      },
+      "false_abstention_answerable": {
+        "metric": "false_abstention_answerable",
+        "value": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 24
+      }
+    },
+    "items": [
+      {
+        "id": "q01",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance. The Northbridge Everyday account has a monthly fee of £0.",
+        "reason": "answered"
+      },
+      {
+        "id": "q02",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+        "reason": "answered"
+      },
+      {
+        "id": "q03",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+        "reason": "answered"
+      },
+      {
+        "id": "q04",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The first replacement debit card in any 12 month period is free. Each further replacement debit card costs £5.",
+        "reason": "answered"
+      },
+      {
+        "id": "q05",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "Cash withdrawals at UK ATMs are free of charge. The daily ATM withdrawal limit is £500.",
+        "reason": "answered"
+      },
+      {
+        "id": "q06",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. Plus and Premier customers receive the first £200 of an arranged overdraft interest free.",
+        "reason": "answered"
+      },
+      {
+        "id": "q07",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "An unarranged overdraft costs £5 per day, capped at £20 per month. We will send you a text message if a payment would take you into an unarranged overdraft, so that you have time to pay money in.",
+        "reason": "answered"
+      },
+      {
+        "id": "q08",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "Plus and Premier customers receive the first £200 of an arranged overdraft interest free. Everyday customers do not receive an interest free amount.",
+        "reason": "answered"
+      },
+      {
+        "id": "q09",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "We review your overdraft limit every 12 months. The daily ATM withdrawal limit is £500.",
+        "reason": "answered"
+      },
+      {
+        "id": "q10",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "The Easy Access Saver pays 3.10% AER variable. The interest rate on an arranged overdraft is 39.9% EAR variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q11",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "The 1-Year Fixed Saver pays 4.25% AER fixed for the term. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q12",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Cash ISA pays 3.60% AER variable. The annual allowance is £20,000.",
+        "reason": "answered"
+      },
+      {
+        "id": "q13",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q14",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The contactless limit is £100 per transaction. After £300 of cumulative contactless spending you must enter your PIN.",
+        "reason": "answered"
+      },
+      {
+        "id": "q15",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The daily ATM withdrawal limit is £500. For Premier customers the daily ATM withdrawal limit is £750.",
+        "reason": "answered"
+      },
+      {
+        "id": "q16",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If a transaction was not authorised by you, we refund it within 1 business day. We send a text message alert when we detect a suspicious transaction.",
+        "reason": "answered"
+      },
+      {
+        "id": "q17",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "This describes the complaints process at the fictional Northbridge Bank. We send you a written acknowledgement within 3 business days of receiving your complaint.",
+        "reason": "answered"
+      },
+      {
+        "id": "q18",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. We will send you a final response within 8 weeks.",
+        "reason": "answered"
+      },
+      {
+        "id": "q19",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. We will send you a final response within 8 weeks.",
+        "reason": "answered"
+      },
+      {
+        "id": "q20",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The minimum deposit is 5% of the property value. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q21",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The 2-year fixed rate is 4.19%. The 5-year fixed rate is 4.39%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q22",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The early repayment charge is 3% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. The 2-year fixed rate is 4.19%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q23",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. A product fee of £999 applies to all fixed rate mortgages.",
+        "reason": "answered"
+      },
+      {
+        "id": "q24",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+        "reason": "answered"
+      },
+      {
+        "id": "q25",
+        "category": "unanswerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. Rates are shown for the fictional Northbridge Bank and are used for demonstration only.",
+        "reason": "answered"
+      },
+      {
+        "id": "q26",
+        "category": "unanswerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance. The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover.",
+        "reason": "answered"
+      },
+      {
+        "id": "q27",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "no_answer"
+      },
+      {
+        "id": "q28",
+        "category": "unanswerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The minimum deposit is 5% of the property value. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q29",
+        "category": "unanswerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "This policy applies to personal current accounts only. The maximum loan to income is 4.5 times your annual income.",
+        "reason": "answered"
+      },
+      {
+        "id": "q30",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "no_answer"
+      },
+      {
+        "id": "q31",
+        "category": "unanswerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance. The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover.",
+        "reason": "answered"
+      },
+      {
+        "id": "q32",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "no_answer"
+      },
+      {
+        "id": "q33",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. Plus and Premier customers receive the first £200 of an arranged overdraft interest free.",
+        "reason": "answered"
+      },
+      {
+        "id": "q34",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The 2-year fixed rate is 4.19%. The 5-year fixed rate is 4.39%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q35",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. The Cash ISA pays 3.60% AER variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q36",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. Payments in other currencies have a fee of £9.50 and arrive within 2 to 4 business days.",
+        "reason": "answered"
+      },
+      {
+        "id": "q37",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+        "reason": "answered"
+      },
+      {
+        "id": "q38",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The contactless limit is £100 per transaction. After £300 of cumulative contactless spending you must enter your PIN.",
+        "reason": "answered"
+      },
+      {
+        "id": "q39",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. Plus and Premier customers receive the first £200 of an arranged overdraft interest free.",
+        "reason": "answered"
+      },
+      {
+        "id": "q40",
+        "category": "near_miss",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": false,
+        "answer": "An unarranged overdraft costs £5 per day, capped at £20 per month. Paper statements cost £2 per statement on the Everyday account.",
+        "reason": "answered"
+      }
+    ]
+  },
+  "gate only": {
+    "backend": "extractive",
+    "use_gate": true,
+    "use_guard": false,
+    "metrics": {
+      "accuracy_overall": {
+        "metric": "accuracy_overall",
+        "value": 0.85,
+        "ci95": [
+          0.725,
+          0.95
+        ],
+        "n": 40
+      },
+      "informativeness_answerable": {
+        "metric": "informativeness_answerable",
+        "value": 0.9166666666666666,
+        "ci95": [
+          0.7916666666666666,
+          1.0
+        ],
+        "n": 24
+      },
+      "hallucination_rate_unanswerable": {
+        "metric": "hallucination_rate_unanswerable",
+        "value": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 16
+      },
+      "hallucination_rate_answerable": {
+        "metric": "hallucination_rate_answerable",
+        "value": 0.16666666666666666,
+        "ci95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "n": 24
+      },
+      "abstention_correct_unanswerable": {
+        "metric": "abstention_correct_unanswerable",
+        "value": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n": 16
+      },
+      "false_abstention_answerable": {
+        "metric": "false_abstention_answerable",
+        "value": 0.041666666666666664,
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "n": 24
+      }
+    },
+    "items": [
+      {
+        "id": "q01",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance. The Northbridge Everyday account has a monthly fee of £0.",
+        "reason": "answered"
+      },
+      {
+        "id": "q02",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+        "reason": "answered"
+      },
+      {
+        "id": "q03",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+        "reason": "answered"
+      },
+      {
+        "id": "q04",
+        "category": "answerable",
+        "abstained": true,
+        "correct": false,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q05",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "Cash withdrawals at UK ATMs are free of charge. The daily ATM withdrawal limit is £500.",
+        "reason": "answered"
+      },
+      {
+        "id": "q06",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. Plus and Premier customers receive the first £200 of an arranged overdraft interest free.",
+        "reason": "answered"
+      },
+      {
+        "id": "q07",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "An unarranged overdraft costs £5 per day, capped at £20 per month. We will send you a text message if a payment would take you into an unarranged overdraft, so that you have time to pay money in.",
+        "reason": "answered"
+      },
+      {
+        "id": "q08",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "Plus and Premier customers receive the first £200 of an arranged overdraft interest free. Everyday customers do not receive an interest free amount.",
+        "reason": "answered"
+      },
+      {
+        "id": "q09",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "We review your overdraft limit every 12 months. The daily ATM withdrawal limit is £500.",
+        "reason": "answered"
+      },
+      {
+        "id": "q10",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "The Easy Access Saver pays 3.10% AER variable. The interest rate on an arranged overdraft is 39.9% EAR variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q11",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "The 1-Year Fixed Saver pays 4.25% AER fixed for the term. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q12",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Cash ISA pays 3.60% AER variable. The annual allowance is £20,000.",
+        "reason": "answered"
+      },
+      {
+        "id": "q13",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q14",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The contactless limit is £100 per transaction. After £300 of cumulative contactless spending you must enter your PIN.",
+        "reason": "answered"
+      },
+      {
+        "id": "q15",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The daily ATM withdrawal limit is £500. For Premier customers the daily ATM withdrawal limit is £750.",
+        "reason": "answered"
+      },
+      {
+        "id": "q16",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If a transaction was not authorised by you, we refund it within 1 business day. We send a text message alert when we detect a suspicious transaction.",
+        "reason": "answered"
+      },
+      {
+        "id": "q17",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "This describes the complaints process at the fictional Northbridge Bank. We send you a written acknowledgement within 3 business days of receiving your complaint.",
+        "reason": "answered"
+      },
+      {
+        "id": "q18",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. We will send you a final response within 8 weeks.",
+        "reason": "answered"
+      },
+      {
+        "id": "q19",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. We will send you a final response within 8 weeks.",
+        "reason": "answered"
+      },
+      {
+        "id": "q20",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The minimum deposit is 5% of the property value. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q21",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The 2-year fixed rate is 4.19%. The 5-year fixed rate is 4.39%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q22",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The early repayment charge is 3% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. The 2-year fixed rate is 4.19%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q23",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. A product fee of £999 applies to all fixed rate mortgages.",
+        "reason": "answered"
+      },
+      {
+        "id": "q24",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+        "reason": "answered"
+      },
+      {
+        "id": "q25",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q26",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q27",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q28",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q29",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q30",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q31",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q32",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q33",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q34",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q35",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q36",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q37",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q38",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q39",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q40",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      }
+    ]
+  },
+  "gate + guard": {
+    "backend": "extractive",
+    "use_gate": true,
+    "use_guard": true,
+    "metrics": {
+      "accuracy_overall": {
+        "metric": "accuracy_overall",
+        "value": 0.85,
+        "ci95": [
+          0.725,
+          0.95
+        ],
+        "n": 40
+      },
+      "informativeness_answerable": {
+        "metric": "informativeness_answerable",
+        "value": 0.9166666666666666,
+        "ci95": [
+          0.7916666666666666,
+          1.0
+        ],
+        "n": 24
+      },
+      "hallucination_rate_unanswerable": {
+        "metric": "hallucination_rate_unanswerable",
+        "value": 0.0,
+        "ci95": [
+          0.0,
+          0.0
+        ],
+        "n": 16
+      },
+      "hallucination_rate_answerable": {
+        "metric": "hallucination_rate_answerable",
+        "value": 0.16666666666666666,
+        "ci95": [
+          0.041666666666666664,
+          0.3333333333333333
+        ],
+        "n": 24
+      },
+      "abstention_correct_unanswerable": {
+        "metric": "abstention_correct_unanswerable",
+        "value": 1.0,
+        "ci95": [
+          1.0,
+          1.0
+        ],
+        "n": 16
+      },
+      "false_abstention_answerable": {
+        "metric": "false_abstention_answerable",
+        "value": 0.041666666666666664,
+        "ci95": [
+          0.0,
+          0.125
+        ],
+        "n": 24
+      }
+    },
+    "items": [
+      {
+        "id": "q01",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance. The Northbridge Everyday account has a monthly fee of £0.",
+        "reason": "answered"
+      },
+      {
+        "id": "q02",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Everyday account has a monthly fee of £0. The Northbridge Plus account has a monthly fee of £12 and includes mobile phone insurance and European travel insurance.",
+        "reason": "answered"
+      },
+      {
+        "id": "q03",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Northbridge Premier account has a monthly fee of £25 and includes worldwide family travel insurance and breakdown cover. The Northbridge Everyday account has a monthly fee of £0.",
+        "reason": "answered"
+      },
+      {
+        "id": "q04",
+        "category": "answerable",
+        "abstained": true,
+        "correct": false,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q05",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "Cash withdrawals at UK ATMs are free of charge. The daily ATM withdrawal limit is £500.",
+        "reason": "answered"
+      },
+      {
+        "id": "q06",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The interest rate on an arranged overdraft is 39.9% EAR variable. Plus and Premier customers receive the first £200 of an arranged overdraft interest free.",
+        "reason": "answered"
+      },
+      {
+        "id": "q07",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "An unarranged overdraft costs £5 per day, capped at £20 per month. We will send you a text message if a payment would take you into an unarranged overdraft, so that you have time to pay money in.",
+        "reason": "answered"
+      },
+      {
+        "id": "q08",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "Plus and Premier customers receive the first £200 of an arranged overdraft interest free. Everyday customers do not receive an interest free amount.",
+        "reason": "answered"
+      },
+      {
+        "id": "q09",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "We review your overdraft limit every 12 months. The daily ATM withdrawal limit is £500.",
+        "reason": "answered"
+      },
+      {
+        "id": "q10",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "The Easy Access Saver pays 3.10% AER variable. The interest rate on an arranged overdraft is 39.9% EAR variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q11",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "The 1-Year Fixed Saver pays 4.25% AER fixed for the term. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q12",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Cash ISA pays 3.60% AER variable. The annual allowance is £20,000.",
+        "reason": "answered"
+      },
+      {
+        "id": "q13",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The Regular Saver pays 5.00% AER fixed for 12 months. The Easy Access Saver pays 3.10% AER variable.",
+        "reason": "answered"
+      },
+      {
+        "id": "q14",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The contactless limit is £100 per transaction. After £300 of cumulative contactless spending you must enter your PIN.",
+        "reason": "answered"
+      },
+      {
+        "id": "q15",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The daily ATM withdrawal limit is £500. For Premier customers the daily ATM withdrawal limit is £750.",
+        "reason": "answered"
+      },
+      {
+        "id": "q16",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If a transaction was not authorised by you, we refund it within 1 business day. We send a text message alert when we detect a suspicious transaction.",
+        "reason": "answered"
+      },
+      {
+        "id": "q17",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "This describes the complaints process at the fictional Northbridge Bank. We send you a written acknowledgement within 3 business days of receiving your complaint.",
+        "reason": "answered"
+      },
+      {
+        "id": "q18",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. We will send you a final response within 8 weeks.",
+        "reason": "answered"
+      },
+      {
+        "id": "q19",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "If you are not happy with our final response, you can refer your complaint to the Financial Ombudsman Service within 6 months of the date of our final response. We will send you a final response within 8 weeks.",
+        "reason": "answered"
+      },
+      {
+        "id": "q20",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The minimum deposit is 5% of the property value. The minimum deposit is £1.",
+        "reason": "answered"
+      },
+      {
+        "id": "q21",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The 2-year fixed rate is 4.19%. The 5-year fixed rate is 4.39%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q22",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "The early repayment charge is 3% of the amount repaid in the first year of a fixed rate period, 2% in the second year, and 1% in years three to five. The 2-year fixed rate is 4.19%.",
+        "reason": "answered"
+      },
+      {
+        "id": "q23",
+        "category": "answerable",
+        "abstained": false,
+        "correct": false,
+        "hallucinated": true,
+        "informative": true,
+        "answer": "Payments in euros to SEPA countries have a fee of £0 and arrive within 1 business day. A product fee of £999 applies to all fixed rate mortgages.",
+        "reason": "answered"
+      },
+      {
+        "id": "q24",
+        "category": "answerable",
+        "abstained": false,
+        "correct": true,
+        "hallucinated": false,
+        "informative": true,
+        "answer": "Phone support is open Monday to Friday from 8am to 8pm and on Saturday from 9am to 5pm. Phone support is closed on Sunday.",
+        "reason": "answered"
+      },
+      {
+        "id": "q25",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q26",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q27",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q28",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q29",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q30",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q31",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q32",
+        "category": "unanswerable",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q33",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q34",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q35",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q36",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q37",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q38",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q39",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      },
+      {
+        "id": "q40",
+        "category": "near_miss",
+        "abstained": true,
+        "correct": true,
+        "hallucinated": false,
+        "informative": false,
+        "answer": "I don't know based on the documents.",
+        "reason": "out_of_scope"
+      }
+    ]
+  }
+}
