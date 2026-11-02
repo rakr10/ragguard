@@ -1,5 +1,7 @@
 # ragguard
 
+[![ci](https://github.com/rakr10/ragguard/actions/workflows/ci.yml/badge.svg)](https://github.com/rakr10/ragguard/actions/workflows/ci.yml)
+
 A small retrieval-augmented question-answering service that **knows when not to answer**, with an evaluation harness that measures it.
 
 The corpus is eight short documents for a *fictional* bank ("Northbridge Bank"). No real data is used.
