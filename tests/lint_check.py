@@ -1,5 +1,7 @@
 """Stand-in lint (ruff was not installable offline): syntax, unused imports, long lines."""
-import ast, pathlib, sys
+import ast
+import pathlib
+import sys
 
 bad = 0
 for path in [*pathlib.Path("src").rglob("*.py"), *pathlib.Path("tests").rglob("*.py")]:

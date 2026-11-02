@@ -116,7 +116,7 @@ class AnthropicBackend:
                 "messages": [{"role": "user", "content": prompt}],
             }
         ).encode()
-        request = urllib.request.Request(  # noqa: S310 - fixed https URL
+        request = urllib.request.Request(
             self.url,
             data=body,
             headers={
@@ -125,7 +125,7 @@ class AnthropicBackend:
                 "content-type": "application/json",
             },
         )
-        with urllib.request.urlopen(request, timeout=30) as response:  # noqa: S310
+        with urllib.request.urlopen(request, timeout=30) as response:
             payload = json.load(response)
         return "".join(b.get("text", "") for b in payload.get("content", [])).strip()
 
